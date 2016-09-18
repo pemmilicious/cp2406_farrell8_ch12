@@ -19,9 +19,10 @@ public class EvenOdd
          result = false;
       else
       {
-         result = true;
-         assert number % 2 == 0 : number + " % 2 is " + number % 2;
-      } 
+          result = true;
+          assert number; % 2 == 0; number + " % 2 is " + number % 2;
+      }
+
       return result;
    }      
 }
